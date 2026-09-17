@@ -21,7 +21,7 @@ System.out.println("Gross Pay: $" + grossPay);
 System.out.println("Tax Withheld: $" + taxWithheld);
 System.out.println("Net Pay: $" + netPay);
 input.close();
-}
+} 
 public static double calculateRegularPay(double wage, int hours) {
 if (hours > STANDARD_HOURS) {
 return wage * STANDARD_HOURS;
